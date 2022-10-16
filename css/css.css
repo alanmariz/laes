@@ -1,0 +1,133 @@
+body {
+    font-family: 'Noto Serif Telugu', serif;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    background-color: #e61610;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+}
+.link-redes {
+    height: 35px;
+    width: 35px;
+}
+main {
+    position: relative;
+    margin-top: 100px;
+    padding: 40px 40px;
+}
+main .titulo{
+    font-family: 'Noto Serif Telugu', serif;
+}
+section {
+    position: relative;
+    top: 50px;
+}
+
+.busca {
+    width: 30px;
+    height: 30px;
+    position: relative;
+}
+footer {
+    position: relative;
+    margin-top: 100px;
+}
+.logo-imagem {
+    width: 40px;
+    height: 40px;
+}
+.logo-laes{
+    width: 90px;
+    height: 90px;
+    margin-top: -25px;
+}
+.logo {
+    display: flex;
+}
+.menu li{
+    display: inline-block;
+    margin: 0 10px;
+}
+.menu li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+}
+.menu li a:hover{
+    background-color: rgba(100, 100, 100, 0.5);
+}
+
+
+footer{
+    background-color: #3a5477;
+    padding: 25px 0;
+}
+.container-footer{
+    max-width: 1400px;
+    margin: auto;
+}
+.row-footer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-col{
+    padding: 0 15px;
+    color: white;
+}
+.footer-col ul{
+    list-style: none;
+}
+.footer-col ul li{
+    margin: 10px 0;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color: #cecdcd;
+    padding-left: 10px;
+}
+
+.navbar .nav-item:not(:last-child) {
+    margin-right: 35px;
+  }
+  
+  .bs-example {
+    margin: auto;
+    width: 25%;
+}
+  
+    .dropdown:hover .dropdown-menu,
+    .btn-group:hover .dropdown-menu {
+        display: block;
+        background-color: #e61610;
+        width: auto;
+    }
+    .dropdown-menu {
+        margin: auto;
+    }
+    .dropdown-toggle {
+        margin: auto;
+    }
+    .navbar .dropdown-toggle,
+    .nav-tabs .dropdown-toggle {
+        margin: auto;
+    }
+    .dropdown:hover .dropdown-menu {
+        display: block;
+      }
